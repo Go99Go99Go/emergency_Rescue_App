@@ -45,21 +45,21 @@ NoSql Firebase 실시간DB
 ### 어플 내용
 
 <img src = "https://user-images.githubusercontent.com/84118571/209464764-9f011d47-9ae9-4251-a5a3-c0625d96d9df.png" width="50%" height="50%">
-센서들의 값을 확인 후 응급상황일 시, 자동으로 문자발송여부알림창 출력후, 30초간 미입력시 자동 구조문자발송
+센서들의 값을 확인 후 응급상황일 시, 자동으로 문자발송여부알림창 출력후, 30초간 미입력시 자동 구조문자발송  
 
 
 <img src = "https://user-images.githubusercontent.com/84118571/209464842-90160fbf-d6b9-439a-bd2f-253da46e1553.png" width="50%" height="50%">
-구조문자를 보낼 연락처를 DB에 등록 및 수정,삭제
+구조문자를 보낼 연락처를 DB에 등록 및 수정,삭제  
 
 
 <img src = "https://user-images.githubusercontent.com/84118571/209464960-ba029a86-1295-4693-8516-a6f145668b39.png" width="50%" height="50%">
-카카오주소API로 집위치 검색 및 등록,수정
+카카오주소API로 집위치 검색 및 등록,수정  
 
 ***
 
 ### 개발환경
-환경: 우분투, 윈도우11 \n
-언어 : python, Java \n
+환경: 우분투, 윈도우11  
+언어 : python, Java  
 툴 : 안드로이드스튜디오
 
 ### 담당역할 및 성과
