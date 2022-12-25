@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/det" />
+
+
+        <TextView
+            android:id="@+id/txtDet"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:text="생체활동감지설명"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="타이머"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+    </TableRow>
+
+
+
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/fire" />
+
+
+        <TextView
+            android:id="@+id/txtFire"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:text="화재감지설명"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/tem" />
+
+        <TextView
+            android:id="@+id/txtTemNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:text="온도"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtTem"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="온도설명"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/hum" />
+
+
+        <TextView
+            android:id="@+id/txtHumNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:text="습도"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TextView
+        android:id="@+id/txtHum"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="습도설명"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/humm" />
+
+
+        <TextView
+            android:id="@+id/txtOnOff"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:text="OFF"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/swOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </TableRow>
+
+
+
+</TableLayout>

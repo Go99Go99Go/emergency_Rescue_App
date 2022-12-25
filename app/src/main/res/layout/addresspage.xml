@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:layout_gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="등록된 주소"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="집주소"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="70dp"/>
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="집주소를 입력해주세요"
+        android:textSize="20dp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/editAddressDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="상세주소를 입력해주세요"
+        android:textSize="20dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주소 등록"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+</LinearLayout>

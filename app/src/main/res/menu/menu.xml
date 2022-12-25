@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="홈화면으로"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_tel"
+        android:title="전화번호 등록"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_address"
+        android:title="주소 등록"
+        app:showAsAction="withText"/>
+
+</menu>
