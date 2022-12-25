@@ -48,7 +48,7 @@ NoSql Firebase 실시간DB
 센서들의 값을 확인 후 응급상황일 시, 자동으로 문자발송여부알림창 출력후, 30초간 미입력시 자동 구조문자발송  
 
 
-<img src = "https://user-images.githubusercontent.com/84118571/209464842-90160fbf-d6b9-439a-bd2f-253da46e1553.png" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/84118571/209465565-f1b4a249-9ec3-42c6-8f07-ce92d8aa0ec3.png" width="50%" height="50%">
 구조문자를 보낼 연락처를 DB에 등록 및 수정,삭제  
 
 
