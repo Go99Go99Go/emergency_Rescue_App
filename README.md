@@ -36,8 +36,9 @@ NoSql Firebase 실시간DB
 ***
 
 ### 모듈 구성
-라즈베리파이3b+, 온/습도센서, 화재감지센서, 초음파센서
+
 <img src = "https://user-images.githubusercontent.com/84118571/209464590-120a4c99-e4b0-4428-940e-2187fffa5915.png" width="50%" height="50%">
+라즈베리파이3b+, 온/습도센서, 화재감지센서, 초음파센서
 
 ***
 
