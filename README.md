@@ -12,7 +12,7 @@
 5.애플리케이션 코딩으로 센서들의 값이 변화하거나 일정 수준 값을 넘으면 애플리케이션으로 알림을 출력 후 119에 구조 문자 발송
 
 ### 시스템 구성도
-<img src = "https://user-images.githubusercontent.com/84118571/209464180-a4888b0b-176f-4f56-b5a4-f5e4a8718c45.png" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/84118571/209464180-a4888b0b-176f-4f56-b5a4-f5e4a8718c45.png" width="500" height="500">
 ![image](https://user-images.githubusercontent.com/84118571/209464196-8aaad86a-7803-4780-9b70-9e8469c19337.png)
 ![image](https://user-images.githubusercontent.com/84118571/209464202-3a1ab093-ddf4-4024-9a3e-cea167ccfb10.png)
 
