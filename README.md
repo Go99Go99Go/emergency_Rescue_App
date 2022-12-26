@@ -59,9 +59,9 @@ NoSql Firebase 실시간DB
 ***
 
 ### 개발환경
-환경: 우분투, 윈도우11  
+환경: Raspberry Pi OS(Raspbian), Window11  
 언어 : python, Java  
-툴 : 안드로이드스튜디오
+툴 : Android Studio
 
 ### 담당역할 및 성과
 어플 제작 및 센서연결
